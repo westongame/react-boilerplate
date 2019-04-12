@@ -9,8 +9,8 @@ import { saveState } from './helpers/localStorage';
 
 import AppContainer from './containers/AppContainer/AppContainer';
 
-import reset from './reset.styl'; // eslint-disable-line no-unused-vars
-import main from './main.styl'; // eslint-disable-line no-unused-vars
+import './reset.styl';
+import './main.styl';
 
 
 const store = configureStore();
